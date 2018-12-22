@@ -34,8 +34,8 @@ var removeElementFromBeginningOfArray=(array)=>{
 return array.slice(1);
 
 }
-destructivelyRemoveElementFromEndOfArray=(array)=>{
-array=[1,2,3];
+var destructivelyRemoveElementFromEndOfArray=(array)=>{
+
 array.pop();
 return array;
 }
