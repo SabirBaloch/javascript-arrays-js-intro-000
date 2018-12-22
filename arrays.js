@@ -11,12 +11,12 @@ array.unshift('foo');
 return array;
 }
 var addElementToEndOfArray=(array, element)=>{
-  
+
   array=[...array, 'foo']
   return array
 }
 var destructivelyAddElementToEndOfArray=(array,element)=>{
-  
+
   array.push('foo');
   return array
 }
